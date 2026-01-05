@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SRC="/var/www/html/vr.kng.fi/gallery/images"
-DST="/var/www/html/vr.kng.fi/gallery/thumbs"
+SRC="/var/www/html/gallery/images"
+DST="/var/www/html/gallery/thumbs"
 
 mkdir -p "$DST"
 
