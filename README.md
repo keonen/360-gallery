@@ -1,5 +1,3 @@
-
-```md
 # 360° VR Image Viewer & Gallery
 
 A lightweight 360° image viewer designed for desktop browsers, mobile devices, and VR headsets such as the **Pico 4** using the **Wolvic** browser.  
@@ -63,7 +61,8 @@ This prevents the user from seeing a blurry or stretched placeholder.
 ```
 /viewer.php        → Main 360° viewer
 /js/aframe.min.js  → A‑Frame library
-/gallery/images/   → Your 360° photos
+/gallery/images/   → Your 360° images
+/gallery/thumbs/   → Your 360° thumbnail images
 /README.md         → This file
 /LICENSE           → MIT License
 ```
@@ -89,8 +88,8 @@ Embed in HTML:
 ## 🧩 Requirements
 
 - PHP-enabled web server (Apache, Nginx, Caddy, etc.)
-- A‑Frame 1.4+  
-- HTTPS recommended for WebXR  
+- A‑Frame 1.4+
+- HTTPS recommended for WebXR
 - VR headset + Wolvic browser for immersive mode
 
 ---
@@ -118,7 +117,7 @@ See below for full text.
 ```
 MIT License
 
-Copyright (c) 2026 keonen
+Copyright (c) 2026 Keijo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
